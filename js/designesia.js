@@ -411,6 +411,10 @@
 			touchDrag: true,
 			transitionStyle: "fade"
 		});
+
+		$('#album-carousel-2').on("click",function(e){
+			e.preventDefault();
+		});
 		// Custom Navigation owlCarousel
 		$(".pf-nav.left").on("click", function() {
 			$('#album-carousel-2').trigger('prev.owl.carousel');
